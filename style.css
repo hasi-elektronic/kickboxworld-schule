@@ -1,0 +1,184 @@
+/* CSS Datei – Kickboxen Schulprojekt */
+
+/* Schriftfarbe + Hintergrundfarbe (1 P. each) */
+body {
+    color: #222222;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    /* Textausrichtung (1 P.) */
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #cc0000;
+    padding: 12px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    /* Box-Modell: padding + margin (1 P.) */
+    padding: 60px 20px;
+    margin: 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ffcc00;
+}
+
+/* Abschnitte */
+.abschnitt {
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Hintergrundfarbe für abwechselnde Bereiche (1 P.) */
+.grau-hintergrund {
+    background-color: #f0f0f0;
+    max-width: 100%;
+    padding: 40px 30px;
+}
+
+.grau-hintergrund > * {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #cc0000;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Karten */
+.karten {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.karte {
+    background-color: white;
+    border-left: 4px solid #cc0000;
+    padding: 15px 20px;
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Medien */
+.bild {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border: 2px solid #cc0000;
+}
+
+.video {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px 0;
+}
+
+iframe {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+/* Links */
+.link-bereich {
+    margin-top: 20px;
+}
+
+.link-bereich a, a {
+    color: #cc0000;
+}
+
+/* TABELLE – Rahmenlinien (2 P.) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    /* Rahmenlinien (2 P.) */
+    border: 2px solid #cc0000;
+}
+
+th {
+    background-color: #cc0000;
+    color: white;
+    padding: 12px 15px;
+    /* Verbundene Rahmenlinien (1 P.) */
+    border: 1px solid #aa0000;
+    text-align: center;
+}
+
+td {
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+/* Einfärben von Tabellenzellen (1 P.) */
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+/* Klassenselektoren (2 P.) */
+.highlight td {
+    background-color: #fff0f0;
+    font-weight: bold;
+}
+
+.kategorie {
+    background-color: #eeeeee;
+    font-weight: bold;
+    color: #cc0000;
+}
+
+/* ID-Selektor (1 P.) */
+#impressum {
+    border-top: 3px solid #cc0000;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
