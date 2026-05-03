@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickboxen – Mein Hobby</title>
+    <!-- CSS Datei einbinden (2 P.) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation mit internem Link (2 P.) -->
+<nav id="oben">
+    <a href="#ueber">Über Kickboxen</a>
+    <a href="#techniken">Techniken</a>
+    <a href="#medien">Medien</a>
+    <a href="#tabelle">Vergleich</a>
+    <a href="#impressum">Impressum</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Kickboxen</h1>
+    <p>Kraft. Disziplin. Respekt.</p>
+</div>
+
+<!-- ÜBER KICKBOXEN -->
+<div id="ueber" class="abschnitt">
+    <h2>Was ist Kickboxen?</h2>
+    <p>
+        Kickboxen ist ein Kampfsport, der in den 1960er Jahren in Japan und den USA entstand.
+        Es ist eine Kombination aus Karate und westlichem Boxen.
+        Heute ist Kickboxen weltweit sehr beliebt – als Sport, Fitness und Selbstverteidigung.
+    </p>
+    <p>
+        Kickboxen stärkt den ganzen Körper, verbessert die Koordination und fördert Disziplin.
+        Es gibt verschiedene Wettkampfklassen wie Full Contact, Low Kick und K-1.
+    </p>
+</div>
+
+<!-- TECHNIKEN -->
+<div id="techniken" class="abschnitt grau-hintergrund">
+    <h2>Grundtechniken</h2>
+    <div class="karten">
+        <div class="karte">
+            <h3>👊 Jab</h3>
+            <p>Schneller, gerader Stoß mit der Führhand zur Distanzkontrolle.</p>
+        </div>
+        <div class="karte">
+            <h3>🦵 Roundkick</h3>
+            <p>Halbkreisförmiger Tritt mit dem Spann – sehr kraftvoll.</p>
+        </div>
+        <div class="karte">
+            <h3>⚡ Cross</h3>
+            <p>Gerader Schlag mit der Haupthand, oft kombiniert mit dem Jab.</p>
+        </div>
+    </div>
+
+    <!-- Externer Link (2 P.) -->
+    <p class="link-bereich">
+        Mehr Infos:
+        <a href="https://de.wikipedia.org/wiki/Kickboxen" target="_blank">Wikipedia – Kickboxen</a>
+    </p>
+</div>
+
+<!-- MEDIEN -->
+<div id="medien" class="abschnitt">
+    <h2>Medien</h2>
+
+    <!-- Bild (2 P.) -->
+    <h3>Foto</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Kickboxing_in_Korea.jpg/800px-Kickboxing_in_Korea.jpg"
+         alt="Kickboxen Wettkampf"
+         class="bild">
+    <p>Zwei Kämpfer beim Wettkampf</p>
+
+    <!-- Video (2 P.) -->
+    <h3>Video</h3>
+    <video controls class="video">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Ihr Browser unterstützt kein Video.
+    </video>
+
+    <!-- Sound (2 P.) -->
+    <h3>Sound</h3>
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Ihr Browser unterstützt kein Audio.
+    </audio>
+
+    <!-- Eingebettetes YouTube-Video (2 P.) -->
+    <h3>YouTube</h3>
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/duvJLBpBhC8"
+        title="Kickboxen Tutorial"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- TABELLE (7 P.) -->
+<div id="tabelle" class="abschnitt grau-hintergrund">
+    <h2>Kampfsportarten im Vergleich</h2>
+
+    <!-- Normale Tabelle + Verbundene Zellen (7 P.) -->
+    <table>
+        <tr>
+            <!-- Verbundene Spalten (colspan) -->
+            <th colspan="2">Sportart</th>
+            <th>Schläge</th>
+            <th>Tritte</th>
+            <th>Schwierigkeit</th>
+        </tr>
+        <tr class="highlight">
+            <!-- Verbundene Zeilen (rowspan) -->
+            <td rowspan="2" class="kategorie">Striking</td>
+            <td>Kickboxen</td>
+            <td>✅ Ja</td>
+            <td>✅ Ja</td>
+            <td>Mittel</td>
+        </tr>
+        <tr>
+            <td>Boxen</td>
+            <td>✅ Ja</td>
+            <td>❌ Nein</td>
+            <td>Leicht</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="kategorie">Kampfkunst</td>
+            <td>Karate</td>
+            <td>✅ Ja</td>
+            <td>✅ Ja</td>
+            <td>Mittel</td>
+        </tr>
+        <tr>
+            <td>Taekwondo</td>
+            <td>Wenig</td>
+            <td>✅ Ja</td>
+            <td>Mittel</td>
+        </tr>
+    </table>
+
+    <!-- Interner Link zurück nach oben (2 P.) -->
+    <p><a href="#oben">↑ Nach oben</a></p>
+</div>
+
+<!-- IMPRESSUM (2 P.) -->
+<div id="impressum" class="abschnitt">
+    <h2>Impressum</h2>
+    <p><strong>Angaben gemäß § 5 TMG</strong></p>
+    <p>
+        Zeynep Güncavdi<br>
+        Musterstraße 12<br>
+        71665 Vaihingen an der Enz
+    </p>
+    <p>E-Mail: zeynep@beispiel.de</p>
+    <p>Diese Seite ist ein Schulprojekt. Alle Medien sind lizenzfrei.</p>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Kickboxen – Schulprojekt von Zeynep Güncavdi | 2026</p>
+</div>
+
+</body>
+</html>
